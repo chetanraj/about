@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blog-post-container {
+    max-width: 860px;
+  }
+ 
+  .blog-post-container h1 {
+    font-size: 2em
+  }
+
+  .blog-post-container h2 {
+    font-size: 1.602em
+  }
+  
+  .blog-post-container h3 {
+    font-size: 1.424em
+  }
+  
+  .blog-post-container h4 {
+    font-size: 1.266em
+  }
+  
+  .blog-post-container h5 {
+    font-size: 1.125em
+  }
+  
+  
+  .blog-post-container h1, 
+  .blog-post-container h2, 
+  .blog-post-container h3, 
+  .blog-post-container h4, 
+  .blog-post-container h5 {
+    transition: color .6s;
+    margin: 2.75rem 0 1rem;
+    font-weight: 600;
+  }
+  
+  .blog-post-container blockquote {
+    border-left: 4px solid var(--secondary-color);
+    padding-left: 1em;
+    color: var(--secondary-color);
+  }
+  
+  .blog-post-content p {
+    margin-bottom: 1.25em;
+    text-align: left;
+    letter-spacing: -0.004em;
+  }
+  
+  .blog-post-content a {
+    text-decoration: underline;
+  }
+  
+  .blog-post-content li {
+    margin: .55rem 0;
+  }
